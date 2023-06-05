@@ -1,0 +1,13 @@
+---
+console.log("Hello aus dem Build!");
+---
+
+<button>Test</button>
+
+<script>
+  import { fakerDE as faker } from "@faker-js/faker";
+  const randomName: String = faker.person.fullName();
+
+  console.log("Hello aus dem Browser!");
+  console.log("Random Name: " + randomName);
+</script>
